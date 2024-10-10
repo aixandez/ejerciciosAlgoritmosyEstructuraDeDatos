@@ -1,4 +1,5 @@
-// Escribir un programa que lea 10 números por teclado y los cargue en un vector. Luego lea un número más e indique si está entre los anteriores.
+// Escribir un programa que lea 10 números por teclado y los cargue en un vector.
+// Luego lea un número más e indique si está entre los anteriores.
 
 #include<stdio.h>
 #include<conio.h>
