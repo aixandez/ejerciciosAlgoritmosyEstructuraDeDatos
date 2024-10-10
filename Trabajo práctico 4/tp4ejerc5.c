@@ -3,7 +3,8 @@
 
 #include<stdio.h>
 #include<conio.h>
-#define indice 10 //define variable constante, significa que cuando yo llame a indice va a valer 10
+#define indice 10 
+//define variable constante, significa que cuando yo llame a indice va a valer 10
 
 main()
 {
