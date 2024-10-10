@@ -1,0 +1,23 @@
+Se desea desarrollar y efectuar un programa para un local de comida rápida.
+
+-Al iniciar el programa, se solicitará ingresar si es fin de semana o no, para calcular el importe a cobrar.
+En caso de ser fin de semana, se aplicará un descuento del 5% en el monto total de la orden.
+-Posteriormente, se solicitará ingresar el número de clientes que realizarán una orden.
+Si este número es igual o mayor a 4, se considerará que se trata de una familia, y se aplicará un descuento del 10% en el monto total de su orden.
+-Se le preguntara a cada cliente qué va a ordenar.
+
+El programa termina cuando el empleado decide no ingresar mas datos.
+
+Al finalizar el ingreso de datos para cada cliente, el programa calculará el importe total a cobrar y determinará el vuelto correspondiente.
+
+-Al finalizar, el programa tiene que mostrar:
+A. Todo lo recaudado en el día. (similar al parcial).
+B. La cantidad de familias atendidas. (4 clientes o más haciendo un pedido).
+C. Un recuento de la cantidad de combos pedidos en el día. (similar al parcial).
+D. El día con mayor cantidad de ventas.
+E. El día con menor cantidad de ventas.
+
+Adriel Gonzalo Ávila
+Nehuen Antonio Argibay
+Tomas Ignacio Alarcon
+Aixa Giovanna Fernández
