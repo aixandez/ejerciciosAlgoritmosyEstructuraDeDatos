@@ -1,0 +1,189 @@
+CONSIGNAS
+
+1) Rellene un array con los números pares comprendidos entre 1 y 100 y muéstrelos en pantalla en orden ascendente.  
+
+2) Escribir un programa que lea un vector de 10 elementos.
+Deberá imprimir el mismo vector por pantalla pero invertido.
+Ejemplo: dado el vector 1 2 3 4 5 6 7 8 9 10 el programa debería imprimir 10 9 8 7 6 5 4 3 2 1. 
+
+3) Lea 10 números por teclado, almacénelos en un array y muestre la suma, resta, multiplicación y división de todos.  
+
+4) Escribir un programa que pida 10 números enteros por teclado, los cargue en un vector y que imprima por pantalla:  
+i. Cuántos de esos números son pares.  
+ii. Cuál es el valor del número máximo.  
+iii. Cuál es el valor del número mínimo.
+
+5)  Escribir un programa que lea 10 números por teclado y los cargue en un vector. Luego lea un número  más e indique si  está entre los anteriores.
+
+6)  Dado un vector con 5 notas de alumnos.  Determinar cuántas notas son mayores a 6.
+
+7)  Dado un vector de 20 números. Hallar el promedio de los elementos positivos y el porcentaje de los negativos. 
+
+8) Dado un vector de 10 elementos determinar el máximo y el mínimo y en qué posición se encuentran. 
+
+9) Diseñar un programa que cargue un arreglo con veinte valores enteros. 
+
+10) Calcular e informar el promedio de los valores y el producto de los mismos. 
+
+11) Dado el vector T de tamaño n. Si el tamaño es par invertir los elementos de la mitad de los elementos. 
+Ejemplo:   v=[1][2][3][4][5][6]      v(invertido)=[3][2][1][6][5][4]
+
+12) Una compañía inmobiliaria tiene 25 vendedores. Cada operación que hace un vendedor se guarda con las siguientes informaciones:
+número del vendedor (int),
+nombre del vendedor (20 char),
+monto de la venta (float).
+Estas informaciones se almacenarán en tres vectores, y se deberá escribir un programa que calcule el total de ventas realizado 
+por cada uno de los vendedores por separado, expresando el resultado como:
+
+NUMERO DEL VENDEDOR         NOMBRE DEL VENDEDOR        TOTAL DE VENTAS
+
+13) Diseñar un programa que permita responder a las preguntas ¿Cuál es su nombre? Y ¿Qué edad tiene?
+Mostrar el resultado en pantalla (para almacenar el nombre debe utilizar un arreglo de tipo char p/ej.: char arraynombre[13] y usar scanf(“%s”, arraynombre).
+
+14) Escribir un programa que lea una matriz de 3 filas y 3 columnas de valores enteros.
+A continuación, el programa debe pedir el número de una fila.
+El programa deberá devolver el máximo de esa fila.
+
+15) Escribir un programa que lea una matriz de números enteros y que devuelva la suma de los elementos positivos de la matriz y la suma de los elementos negativos.
+
+16) Escribir un programa que lea una matriz de 4 filas y 3 columnas, la visualice por pantalla y a continuación encuentre el mayor y el menor elemento de la matriz y sus posiciones.
+
+17) Escribir un  programa que lea del teclado una cadena y muestre en la pantalla la cantidad de consonantes y de vocales que contiene.
+
+18) Escribir un programa que lea del teclado dos cadenas, las muestre en pantalla e informe si las cadenas ingresadas son iguales o no.
+
+19) Escribir un programa que ingrese una palabra y a continuación muestre la palabra y la cantidad de letras que compone la palabra.
+
+20) Diseñar un programa que ingrese dos matrices cuadradas y muestre un menú donde se puedan seleccionar estas distintas opciones:
+1-sumar matrices, 2-multiplicar matrices, 3-salir del programa.
+
+21)  El siguiente programa contiene errores, corrígelo: 
+#define <stdio.h> 
+#define <stdlib.h> 
+#include Tope 10; 
+main() 
+{int tabla [tope], i, aux; 
+for (i=0; i<Tope; i++) 
+{ tabla[i]=i; 
+i=i+1; 
+} 
+i=0; 
+while (i<=Tope) 
+{ aux=tau[i]; 
+tabla[i]=tabla[i+1]; 
+tabla[i+1]=aux; 
+} 
+printf("\n\n"); 
+system ("PAUSE"); 
+}
+
+22) El siguiente programa intenta contar cuantos carácteres “t” seguidos de “a” hay en una frase que se pedirá por pantalla, la frase acabará con un punto.
+En el programa hay errores, corrígelos. Ejemplo de ejecución (en negrita los datos introducidos por el usuario):
+Escribe un frase(para finalizar  un punto): abba tkktajjtaiitaktaoi. – ta – aparece 4 veces 
+#include <stdio.h> 
+#include <stdlib.h>
+main() 
+{ int antes, tot=0; 
+char ahora; 
+antes='z'; 
+printf("Escribe una frase, para acabar un punto '.': \n"); 
+scanf("%c", &ahora); 
+while (ahora!='.') 
+if (ahora=='a' || antes=='t') then {tot ++;} 
+antes=ahora; 
+scanf("%c", &orain); 
+printf(" aparece veces '-ta-'", tot); 
+printf("\n\n"); 
+system ("PAUSE"); 
+}
+
+23) El Gobierno Argentino quiere hacer un estudio de hábitos de consumo de alcohol y bebida entre la juventud.
+Para ello, ha escogido todas las provincias donde llevará a cabo la consulta.
+El gobierno provincial de cada una recogerá el número de litros consumidos durante el pasado año de los 8 tipos de bebidas nombrados a continuación:
+
+Tipos De Bebidas 
+0. Naturales: agua, leche, jugos, infusiones, etc. 
+1. Gaseosos sin alcohol: refrescos, sodas, etc. 
+2. Vinos 
+3. Cervezas 
+4. Whisky 
+5. Licores 
+6. Energéticos: Red Bull, etc 
+7. Combinados: Cuba libre, GinTonics, etc.
+
+Mediante un programa, se pide que realices un estudio que estará compuesto por los siguientes pasos:
+
+1. Ingresar y almacena la información, para cada provincia, sobre los litros consumidos de los tipos de bebidas mencionados.
+Recuerda que las provincias aportarán información a tu estudio.
+No obstante, la información no te la tienen por qué dar 
+ordenada por tipo de bebida o número de litros y puede que de algún tipo de bebida no se tenga información. 
+Así, será preciso introducir pares (tipo de bebida, litros) y para indicar que no hay más datos de una provincia, bastará con introducir como tipo de bebida el valor -1.  
+2. Determina el “tipo de bebida” más consumida entre todas los provincias; es decir, el tipo de bebida del que más litros se hayan bebido entre todas las provincias.
+
+24) ¿Qué imprime el siguiente programa?.  
+int *punt;   
+int x=7;
+int y=5;   
+punt=&x;   
+*punt=4;   
+printf(“%d, %d”,x,y); // ¿qué imprime este printf?
+
+25) ¿Qué imprime el siguiente programa?.  
+int *punt;   
+int x=7;   
+int y=5;   
+punt=&x;   
+x=4;   
+printf(“%d, %d”,*punt,y); // ¿qué imprime este printf?
+
+26) ¿Qué imprime el siguiente programa?.  
+int *punta, *puntb;   
+int x=7;   
+int y=5;   
+punta=&x;   
+*punta=3;  
+puntb=&y;  
+*puntb=x;  
+x=9;  
+printf(“%d, %d”,*puntb, *punta); // ¿qué imprime?
+
+27) ¿Qué imprime el siguiente programa?.  
+int *punta, *puntb;   
+int x=7;   
+int y=5;   
+punta=&x;   
+*punta=3;  
+puntb=&y;  
+*puntb=x;  
+x=9;  
+puntb=punta;  
+printf(“%d, %d”,*puntb, y); // ¿qué imprime?
+
+28) ¿Qué imprime el siguiente programa?.  
+int *punt,i;   
+int x[5]={1,2,3,4,5};   
+punt=x;   
+*punt=9;  
+for(i=0;i<5;i++)  
+printf(“%d,”,x[i]); // ¿qué imprime?
+
+29) ¿Qué imprime el siguiente programa?.  
+int *punt,i;   
+int x[5]={1,2,3,4,5};   
+punt=&x[0];   
+*punt=9;  
+punt[3]=7;  
+for(i=0;i<5;i++)  
+printf(“%d,”,x[i]);
+
+30) ¿Qué imprime el siguiente programa?.  
+int *punt,i;   
+int x[5]={1,2,3,4,5};   
+punt=x;   
+*x=11;  
+*(punt+3)=9 ;  
+for(i=0;i<5;i++)  
+printf(“%d,”,x[i]);
+
+31)  Dado un vector de 10 elementos ={1, 2, 3, 4, 4, 7, 8, 9, 5, 4}, escribir un programa en C (haciendo uso de puntero)
+que muestre las direcciones de memoria de cada elemento del vector. 
