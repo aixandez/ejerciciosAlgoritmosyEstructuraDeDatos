@@ -1,10 +1,10 @@
-// TERCER PARCIAL - FERNANDEZ AIXA GIOVANNA - COMISION 1 - TURNO MA—ANA
+// TERCER PARCIAL - FERNANDEZ AIXA GIOVANNA - COMISION 1 - TURNO MA√ëANA
 
 #include<stdio.h>
 #include <stdlib.h>
 #define cant 10
 
-int menu();
+
 void cargarvector(int alt, int dist, int *vx, int *vy, int j);
 void informes(int *vx, int *vy, int i);
 
@@ -78,47 +78,47 @@ void informes(int *vx, int *vy, int i) // vx = altura, vy = distancia
 
 /*ENUNCIADO:
 
-Soledad es aficionada al trekking de montaÒa. Quiere realizar una excursiÛn por un difÌcil terreno 
+Soledad es aficionada al trekking de monta√±a. Quiere realizar una excursi√≥n por un dif√≠cil terreno 
 
-montaÒoso y para eso quiere saber con anticipaciÛn quÈ nivel de exigencia tiene ese terreno. Posee un 
+monta√±oso y para eso quiere saber con anticipaci√≥n qu√© nivel de exigencia tiene ese terreno. Posee un 
 
 mapa del sendero, con los valores de alturas en distintos puntos del mismo y la distancia que debe 
 
 recorrer para llegar a cada uno de esos puntos.
 
-Se desea desarrollar una aplicaciÛn para registrar las alturas de los distintos puntos del sendero y la 
+Se desea desarrollar una aplicaci√≥n para registrar las alturas de los distintos puntos del sendero y la 
 
 distancia que hay que caminar para llegar a los mismos para que Soledad pueda evaluar el nivel de 
 
-exigencia que tendr· su actividad de trekking.
+exigencia que tendr√° su actividad de trekking.
 
 Se conocen las alturas de 10 puntos del sendero, que son valores enteros positivos. Todas las alturas 
 
-est·n expresadas en metros. Se conocen las distancias que hay que caminar para llegar a esos 10 
+est√°n expresadas en metros. Se conocen las distancias que hay que caminar para llegar a esos 10 
 
 puntos, que son valores positivos, expresadas en metros.
 
-El programa deber· tener un men˙ con las siguientes opciones:
+El programa deber√° tener un men√∫ con las siguientes opciones:
 
 1 - Ingresar alturas y distancias de puntos principales del sendero. 
 
-2 - EvaluaciÛn de nivel de exigencia del sendero.
+2 - Evaluaci√≥n de nivel de exigencia del sendero.
 
 3 - Salir.
 
-OpciÛn1 - Ingresar alturas de las partes principales del sendero:
+Opci√≥n1 - Ingresar alturas de las partes principales del sendero:
 
 Ingresar los datos de alturas de los puntos del sendero en un vector de 10 elementos. Llamar a una 
 
-funciÛn que tenga como par·metro un vector de 10 elementos y lea por teclado las 10 alturas. Ingresar 
+funci√≥n que tenga como par√°metro un vector de 10 elementos y lea por teclado las 10 alturas. Ingresar 
 
 los datos de las distancias de los puntos del sendero en un vector de 10 elementos. Llamar a la misma 
 
-funciÛn que tenga como par·metro un vector de 10 elementos y lea por teclado las 10 distancias.
+funci√≥n que tenga como par√°metro un vector de 10 elementos y lea por teclado las 10 distancias.
 
-OpciÛn 2 - EvaluaciÛn de nivel de exigencia del sendero:
+Opci√≥n 2 - Evaluaci√≥n de nivel de exigencia del sendero:
 
-Llamar a una funciÛn que tenga como par·metros los vectores armados en la opciÛn 1 para informar:
+Llamar a una funci√≥n que tenga como par√°metros los vectores armados en la opci√≥n 1 para informar:
 
 En cada punto del sendero: Si la altura es mayor a 500 metros y la distancia es mayor a 2000 metros, 
 
@@ -126,13 +126,13 @@ informar un cartel donde indique que el nivel de exigencia es alto.
 
 De lo contrario informar que el nivel de exigencia es bajo.
 
-Al final informar: La distancia total del sendero. Si la mayorÌa de los puntos del sendero son de un 
+Al final informar: La distancia total del sendero. Si la mayor√≠a de los puntos del sendero son de un 
 
 nivel de exigencia alto, informarle a Soledad que el sendero es de dificultad alta.
 
-OpciÛn 3 - Salir
+Opci√≥n 3 - Salir
 
-Utilizar aritmÈtica de punteros en el manejo de vectores en las funciones de las opciones 1 y 2.
+Utilizar aritm√©tica de punteros en el manejo de vectores en las funciones de las opciones 1 y 2.
 
 Definir los vectores con 10 elementos.
 
