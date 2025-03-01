@@ -1,0 +1,38 @@
+CONSIGNA:
+
+Un equipo de fútbol necesita ganar el próximo partido en la Liga Nacional de Fútbol para no descender.
+El equipo no se caracteriza particularmente por sus habilidades en la cancha.
+El plan del equipo para poder ganar el partido es incorporar un arquero robot.
+
+Debés desarrollar una aplicación para programar al robot, para que, cuando la pelota llegue al arco,
+el robot pueda identificar si ese tiro resultará en GOL o si irá AFUERA.
+
+Los datos de cada tiro de pelota son coordenadas (x,y) que dan la ubicación dentro del
+arco donde entrará la pelota o se irá afuera:
+
+Coordenada X en centímetros (valor entero&gt;=0)
+Coordenada Y en centímetros (valor entero&gt;=0)
+
+El arco mide 500 centímetros de largo por 250 centímetros de alto.
+Para que el tiro de pelota sea GOL, la coordenada X debe ser mayor o igual a 0 y menor o igual a 500
+y la coordenada Y debe ser mayor o igual a 0 y menor o igual a 250.
+En caso contrario, el tiro de pelota se va AFUERA.
+
+Hacer un menú con las siguientes opciones:
+1 - Ingresar datos de tiros al arco.
+2 - Evaluar las habilidades del arquero robot.
+3 - Salir
+
+1 - Ingresar datos de tiros al arco: En esta opción deberá ingresar por teclado los datos de un tiro al arco.
+Luego deberá llamar a una función que tenga como parámetros al menos los 2 datos cargados y 2 vectores,
+y cargue esos datos en los vectores respectivamente.
+
+2 - Evaluar habilidades del arquero robot: Llamar a una función que tenga al menos como
+parámetros los dos vectores cargados en la opción 1, e informe:
+
+a) Por cada tiro de pelota al arco: Las coordenadas del tiro y un cartel que
+indique si la pelota resultará GOL o irá AFUERA.
+b) La cantidad de tiros que resultarán GOL y la cantidad de tiros que irán AFUERA.
+
+Se pide codificación del algoritmo en Lenguaje C del algoritmo. Utilice aritmética de punteros en las funciones de opción 1 y 2.
+Estimar el tamaño de los vectores en 50 elementos. Los datos ingresan válidos.
